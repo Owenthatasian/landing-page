@@ -33,3 +33,9 @@ a:hover {
     text-decoration: underline;
     color: white;
 }
+
+.main-title-image {
+    width: 300px;
+    height: auto;
+    
+}
