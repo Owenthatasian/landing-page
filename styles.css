@@ -1,0 +1,35 @@
+.logo {
+    width: 150px;
+    height: auto;
+    background-color: transparent;
+    background-size: cover;
+    background:transparent
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.top-right-links {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: lightgrey;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: white;
+}
