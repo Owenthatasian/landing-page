@@ -39,3 +39,94 @@ a:hover {
     height: auto;
     
 }
+
+.main-title-section {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 100px 300px;
+    gap: 50px;
+    /* height: 400px; */
+}
+
+.main-left-container {
+    flex-grow: 4;
+    /* flex-shrink: 0; */
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: baseline;
+    justify-content: left;
+    padding-top: 50px;
+    height: 200px;
+}
+
+.main-title {
+    font-weight: bold;
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.main-subtext {
+    font-size: 18px;
+    columns: #e5e7eb;
+}
+
+.main-title-image {
+    object-fit: cover;
+    width: auto;
+    height: auto;
+    flex-grow: 3;
+}
+
+.sign-up-button {
+    width: 100px;
+    text-align: center;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 25px;
+    color: #f9faf8;
+    /* height: 40p; */
+}
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    /* background-c; */
+    padding-top: 100px;
+    padding-bottom: 200px;
+    align-items: center;
+    gap: 50px;
+}
+
+.info-title {
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 70px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: solid #3882f6 5px;
+    border-radius: 20px;
+}
+
+
+
+
+/* MAKE SURE TO CHANGE BOTTOM BUTTON 
+STYLE USING CHILD CLASS CSS */
